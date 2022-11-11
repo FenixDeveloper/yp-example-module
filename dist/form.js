@@ -10,7 +10,7 @@ function initForm(form, constraints, onSubmit) {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     var data = Object.fromEntries(new FormData(form).entries());
-    var errors = (0, _validate["default"])(data, formConstraints);
+    var errors = (0, _validate["default"])(data, constraints);
     if (errors) for (var fieldName in errors) {
       form.elements[fieldName].closest(".field").querySelector(".help").textContent = errors[fieldName].join(". ");
     } else {
