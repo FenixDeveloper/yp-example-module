@@ -1,2 +1,2 @@
-export { initNavBurger } from "./components/navbar";
-export { initForm } from "./components/form";
+export { initNavBurger } from "./navbar";
+export { initForm } from "./form";

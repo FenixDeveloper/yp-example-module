@@ -15,5 +15,5 @@ Object.defineProperty(exports, "initNavBurger", {
     return _navbar.initNavBurger;
   }
 });
-var _navbar = require("./components/navbar");
-var _form = require("./components/form");
+var _navbar = require("./navbar");
+var _form = require("./form");
